@@ -199,6 +199,7 @@ $devices_info = array(
     array('model' => 'z3', 'name' => 'Xperia Z3', 'brand' => 'Sony'),
     array('model' => 'z3c', 'name' => 'Xperia Z3 Compact', 'brand' => 'Sony'),
     array('model' => 'z3dual', 'name' => 'Xperia Z3 Dual', 'brand' => 'Sony'),
+    array('model' => 'ghost', 'name' => 'Moto X 2013 (unified)', 'brand' => 'Motorola'),
 );
 
 $hardware_info = array(
@@ -543,6 +544,12 @@ $hardware_info = array(
                      'rom' => '16GB',
                      'battery' => '3100 mAh',
                      'display' => '5.2 inch, 1920x1080 pixel(424ppi)',
+                     'cpuarch' => 'Arm'),
+    'ghost' => array('cpu' => 'Qualcomm® Snapdragon™ S4 Pro',
+                     'ram' => '2GB',
+                     'rom' => '16GB/32GB/64GB',
+                     'battery' => '2200 mAh',
+                     'display' => '4.7 inch, 1280x720 pixel(312ppi)',
                      'cpuarch' => 'Arm'),
 );
 
